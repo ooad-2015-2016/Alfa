@@ -49,14 +49,14 @@ internu komunikaciju radnika na groblju, vozača, menadžera i predsjednika te �
 ##Akteri: 
 
 ##### :bust_in_silhouette: Predsjednik 
-osoba koja ima uvid u rad svih uposlenika,financije,baze podataka te daje saglasnost pri nabavci opreme
+osoba koja ima uvid u rad svih uposlenika, financije, baze podataka te daje saglasnost pri nabavci opreme
 ##### :bust_in_silhouette: Korisnik    
-osoba koja ima mogućnost korištenja usluga pogrebnog društva
+osoba koja ima mogućnost korištenja aplikacije u vidu iskorištenja usluga pogrebnog društva
 ##### :bust_in_silhouette: Menadžer    
-osoba koja predstavlja poveznicu između korisnika i ostalih radnika pogrebnog društva,vrši administrativne poslove aplikacije, prati stanje pogrebnog materijala i izvršitelj je nabavki
+osoba koja predstavlja poveznicu između korisnika i ostalih radnika pogrebnog društva, vrši administrativne poslove aplikacije, prati stanje raznovrsnog pogrebnog materijala i izvršitelj nabavki
 ##### :bust_in_silhouette: Vozač	      
-osoba zadužena za izvršavanje transporta preminule osobe ili transporta ožalošćenih na ceremoniju i sahranu
+osoba zadužena za izvršenje transporta preminule osobe ili transporta ožalošćenih na ceremoniju pokopa
 ##### :bust_in_silhouette: Radnik
-osoba zadužena za održavanje groblja
+osoba zadužena za održavanje, uređivanje i osiguravanje groblja i nadgrobnog materijala
 #####  :bust_in_silhouette: Snimatelj    
 osoba zadužena za kreiranje, produkciju i manipulaciju multimedijalnog sadržaja
