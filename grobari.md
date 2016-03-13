@@ -1,4 +1,4 @@
-# GROBARI
+# Pogrebno društvo
 
 
 ### Članovi tima:
