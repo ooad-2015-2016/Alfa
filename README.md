@@ -3,10 +3,10 @@
 
 ## Članovi tima:
 
-   1.Palalić Semin
-   2.Mušić Mirza
-   3.Silajdžić Haris
-   4.Pajić Enis
+   1. Palalić Semin
+   2. Mušić Mirza
+   3. Silajdžić Haris
+   4. Pajić Enis
    
 ## Opis teme:
 Naše programsko rješenje pogrebnog društva nudi mogućnost kompletne organizacije pogreba, transporta i veliki izbor pogrebne opreme. 
