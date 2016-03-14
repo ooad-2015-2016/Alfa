@@ -1,11 +1,12 @@
 # Alfa
 # Pogrebno društvo
 
-Clanovi tima:
-   1.Palalic Semin
-   2.Music Mirza
-   3.Silajdzic Haris
-   4.Pajic Enis
+## Članovi tima:
+
+   1.Palalić Semin
+   2.Mušić Mirza
+   3.Silajdžić Haris
+   4.Pajić Enis
    
 ## Opis teme:
 Naše programsko rješenje pogrebnog društva nudi mogućnost kompletne organizacije pogreba, transporta i veliki izbor pogrebne opreme. 
@@ -45,7 +46,7 @@ internu komunikaciju radnika na groblju, vozača, menadžera i predsjednika te �
 ##Akteri: 
 
 ##### 1. Predsjednik 
-osoba koja ima uvid u rad svih uposlenika, financije, baze podataka te daje saglasnost pri nabavci opreme
+osoba koja ima uvid u rad svih uposlenika, finansije, baze podataka te daje saglasnost pri nabavci opreme
 ##### 2. Korisnik 
 osoba koja ima mogućnost korištenja aplikacije u vidu iskorištenja usluga pogrebnog društva
 ##### 3. Menadžer    
