@@ -109,6 +109,9 @@
     <Compile Include="MjestoBaza\Models\DefaultPodaci.cs" />
     <Compile Include="MjestoBaza\Models\Mjesto.cs" />
     <Compile Include="MjestoBaza\Models\MjestoDbContext.cs" />
+    <Compile Include="PreminuliBaza\Models\DefaultPodaciPreminulih.cs" />
+    <Compile Include="PreminuliBaza\Models\Preminuli.cs" />
+    <Compile Include="PreminuliBaza\Models\PreminuliDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
