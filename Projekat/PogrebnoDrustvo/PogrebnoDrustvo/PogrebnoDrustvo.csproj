@@ -109,6 +109,9 @@
     <Compile Include="MjestoBaza\Models\DefaultPodaci.cs" />
     <Compile Include="MjestoBaza\Models\Mjesto.cs" />
     <Compile Include="MjestoBaza\Models\MjestoDbContext.cs" />
+    <Compile Include="OpremaBaza\Models\DefaultPodaci.cs" />
+    <Compile Include="OpremaBaza\Models\Oprema.cs" />
+    <Compile Include="OpremaBaza\Models\OpremaDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -139,6 +142,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="MjestoBaza\Views\" />
+    <Folder Include="OpremaBaza\Views\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
