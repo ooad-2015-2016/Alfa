@@ -1,0 +1,21 @@
+1. Princip pojedinacne odgovornosti nije ispoštovan jer treba postojati samo jedan razlog za promjenu klase. Kao primjer
+   uzet cemo klasu Menadzer. Ako promijenimo format izvještaja moramo promijeniti i klasu Menadzer ili ako promijenimo 
+   zahtjev moramo promijeniti i klasu Menadzer. Ovo možemo riješiti tako što sve ove koncepte odvojimo u njihove vlastite 
+   klase tako da svaka klasa ima jedan i samo jedan razlog za promjenu. Npr. Klasa Menadzer se samo bavi sa registracijom 
+   korisnika, neka klasa "A" obradi zahtjeva, klasa "B" izvještajima...
+2. Otvoreno zatvoren princip nije ispoštovan. Ako se desi promjena implementacije na jednoj klasi to ne smije da forsira
+   modifikaciju na nekoj drugoj klasi. Ovdje imamo primjer toga kod klasa Izvjestaj i Predsjednik. Ukoliko se desi neka 
+   promjena implementacije klase Izvjestaj to može forsirati modifikaciju klase Predsjednik. Ovo se rješava pomocu 
+   interfejsa.
+3. Liskov princip zamjene nije ispoštovan. U klasi Osoba imamo atribut brojTelefona kojeg naslijeduju svi uposlenici.
+   Medutim šta ako neki od uposlenika nema telefon? On nece imati ni broj telefona, tako da je Liskov princip zamjene
+   narušen. Ovo rješavamo pomocu interfejsa, tako što ce se u interfejsu nalaziti atribut brojTelefona. 
+4. Princip inverzije ovisnosti je narušen. Da bi ovaj princip bio ispoštovan klase ne smiju ovisiti od konkrentnih klasa.
+   U našem slucaju imamo više primjera ovisnosti kao što je ovisnost klase Menadzer od konkretne klase KorisnikSistema, 
+   ovisnost klase Predsjednik od konkretne klase KorisnikSistema, ovisnost klase Radnik od konkretne klase Osoba itd.
+   Da bi bio ovaj princip ispoštovan možemo staviti da su klase Osoba i Korisnik apstraktne klase ili ih možemo prikazati
+   kao interfejse.
+5. Princip izoliranja intefejsa je ispoštovan. Na prvi pogled cini se ovaj princip nije ispoštovan jer ovdje imamo jednu
+   "debelu" klasu Zahtjev. Kada u nekoj klasi koja ima desetine ili stotine metoda, a korisnik najcešce poziva samo par  
+   njih, tada ovaj princip nije ispoštovan. U našem slucaju pri izradi zahtjeva se koriste uvijek gotovo sve metode(gotovo
+   sve jer možda neko nece da angažuje snimatelja) tako da je neophodno da ovdje imamo "debelu" klasu Zahtjev.
