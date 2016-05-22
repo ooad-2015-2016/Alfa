@@ -92,6 +92,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="obj\ARM\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
@@ -109,10 +110,20 @@
     <Compile Include="MjestoBaza\Models\DefaultPodaci.cs" />
     <Compile Include="MjestoBaza\Models\Mjesto.cs" />
     <Compile Include="MjestoBaza\Models\MjestoDbContext.cs" />
+    <Compile Include="obj\ARM\Debug\App.g.cs" />
+    <Compile Include="obj\ARM\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\ARM\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\ARM\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="OpremaBaza\Models\DefaultPodaci.cs" />
+    <Compile Include="OpremaBaza\Models\Oprema.cs" />
+    <Compile Include="OpremaBaza\Models\OpremaDbContext.cs" />
     <Compile Include="PreminuliBaza\Models\DefaultPodaciPreminulih.cs" />
     <Compile Include="PreminuliBaza\Models\Preminuli.cs" />
     <Compile Include="PreminuliBaza\Models\PreminuliDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ZahtjevBaza\Models\DefaultPodaciZahtjeva.cs" />
+    <Compile Include="ZahtjevBaza\Models\Zahtjev.cs" />
+    <Compile Include="ZahtjevBaza\Models\ZahtjevDbContext.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -121,6 +132,10 @@
     <None Include="PogrebnoDrustvo_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="PogrebnoDrustvo_BACKUP_4188.csproj" />
+    <Content Include="PogrebnoDrustvo_BASE_4188.csproj" />
+    <Content Include="PogrebnoDrustvo_LOCAL_4188.csproj" />
+    <Content Include="PogrebnoDrustvo_REMOTE_4188.csproj" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -141,7 +156,10 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="bin\ARM\Debug\" />
     <Folder Include="MjestoBaza\Views\" />
+    <Folder Include="obj\ARM\Debug\intermediatexaml\" />
+    <Folder Include="obj\ARM\Debug\TempPE\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
