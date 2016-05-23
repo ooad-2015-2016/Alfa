@@ -106,7 +106,12 @@
     <Compile Include="Migrations\20160424095130_InitialMigration.designer.cs">
       <DependentUpon>20160424095130_InitialMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20160523004713_InitialMigration.cs" />
+    <Compile Include="Migrations\20160523004713_InitialMigration.Designer.cs">
+      <DependentUpon>20160523004713_InitialMigration.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\MjestoDbContextModelSnapshot.cs" />
+    <Compile Include="Migrations\ZahtjevDbContextModelSnapshot.cs" />
     <Compile Include="MjestoBaza\Models\DefaultPodaci.cs" />
     <Compile Include="MjestoBaza\Models\Mjesto.cs" />
     <Compile Include="MjestoBaza\Models\MjestoDbContext.cs" />
