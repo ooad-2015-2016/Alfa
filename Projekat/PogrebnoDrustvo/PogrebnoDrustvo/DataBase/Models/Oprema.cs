@@ -5,14 +5,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DbContext_Tabela.MjestaBaza.Models
+namespace PogrebnoDrustvo.DataBase.Models
 {
-    class Mjesto
+    public class Oprema
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int MjestoId { get; set; }//primary key u bazi
-        public string adresa { get; set; }
-        public string nazivLokacije { get; set; }
+        public int idOpreme { get; set; }  //Primary key
         public double cijena { get; set; }
+        public string naziv { get; set; }
+        public double visina { get; set; }
+        public double sirina { get; set; }
     }
 }

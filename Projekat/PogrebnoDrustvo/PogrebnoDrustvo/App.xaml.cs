@@ -1,5 +1,4 @@
-﻿using DbContext_Tabela.MjestaBaza.Models;
-using Microsoft.Data.Entity;
+﻿using Microsoft.Data.Entity;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -36,11 +35,7 @@ namespace PogrebnoDrustvo
             this.InitializeComponent();
             this.Suspending += OnSuspending;
 
-            using (var db = new MjestoDbContext())
-            {
-                db.Database.ApplyMigrations();
-                DefaultPodaci.Initialize(db);
-            }
+
 
         }
 

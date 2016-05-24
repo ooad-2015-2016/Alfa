@@ -5,17 +5,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-namespace DbContext_Tabela.PreminuliBaza.Models
+namespace PogrebnoDrustvo.DataBase.Models
 {
     public class Preminuli
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int barKodUmrlog { get; set; }
-        public string imeUmrlog { get; set; }
-        public string prezimeUmrlog { get; set; }
+        public int barKodPreminulog { get; set; }
+        public string ime { get; set; }
+        public string prezime { get; set; }
         public DateTime datumRodjenja { get; set; }
         public DateTime datumSmrti { get; set; }
-        public string pogrebnaLokacija { get; set; }
+        public Mjesto pogrebnaLokacija { get; set; }
     }
 }
