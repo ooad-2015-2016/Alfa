@@ -4,14 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{42D80ABA-D98E-4F5F-BF4F-156118DF85B9}</ProjectGuid>
+    <ProjectGuid>{D46714CA-8F90-4F70-A225-958500D98E57}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PogrebnoDrustvo</RootNamespace>
     <AssemblyName>PogrebnoDrustvo</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion>10.0.10240.0</TargetPlatformVersion>
+    <TargetPlatformVersion>10.0.10586.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
@@ -98,24 +98,26 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="DataBase\Models\DatabaseContext.cs" />
-    <Compile Include="DataBase\Models\Izvjestaj.cs" />
-    <Compile Include="DataBase\Models\Izvjestaji.cs" />
-    <Compile Include="DataBase\Models\Korisnik.cs" />
-    <Compile Include="DataBase\Models\KorisnikSistema.cs" />
-    <Compile Include="DataBase\Models\Menadzer.cs" />
-    <Compile Include="DataBase\Models\Mjesto.cs" />
-    <Compile Include="DataBase\Models\Oprema.cs" />
-    <Compile Include="DataBase\Models\Osoba.cs" />
-    <Compile Include="DataBase\Models\Predsjednik.cs" />
-    <Compile Include="DataBase\Models\Preminuli.cs" />
-    <Compile Include="DataBase\Models\Radnik.cs" />
-    <Compile Include="DataBase\Models\Snimatelj.cs" />
-    <Compile Include="DataBase\Models\Vozac.cs" />
-    <Compile Include="DataBase\Models\Zahtjev.cs" />
+    <Compile Include="Database\Models\DefaultPodaci.cs" />
+    <Compile Include="Database\Models\Izvjestaj.cs" />
+    <Compile Include="Database\Models\KorisnikSistema.cs" />
+    <Compile Include="Database\Models\Mjesto.cs" />
+    <Compile Include="Database\Models\Oprema.cs" />
+    <Compile Include="Database\Models\Osoba.cs" />
+    <Compile Include="Database\Models\PogrebnoDrustrvoDbContext.cs" />
+    <Compile Include="Database\Models\Preminuli.cs" />
+    <Compile Include="Database\Models\Radnik.cs" />
+    <Compile Include="Database\Models\Snimatelj.cs" />
+    <Compile Include="Database\Models\Vozac.cs" />
+    <Compile Include="Database\Models\Zahtjev.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20160525220821_InitialMigration.cs" />
+    <Compile Include="Migrations\20160525220821_InitialMigration.designer.cs">
+      <DependentUpon>20160525220821_InitialMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\PogrebnoDrustrvoDbContextModelSnapshot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -125,10 +127,6 @@
     <None Include="PogrebnoDrustvo_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="PogrebnoDrustvo_BACKUP_4188.csproj" />
-    <Content Include="PogrebnoDrustvo_BASE_4188.csproj" />
-    <Content Include="PogrebnoDrustvo_LOCAL_4188.csproj" />
-    <Content Include="PogrebnoDrustvo_REMOTE_4188.csproj" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -149,7 +147,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DataBase\Views\" />
+    <Folder Include="Database\View\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

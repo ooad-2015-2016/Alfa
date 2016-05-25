@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="30ba19e4-75fe-400d-b556-47e131f37a46"
-    Publisher="CN=Semin"
+    Name="1d79dcd4-d8e1-433b-8281-7504f7210a31"
+    Publisher="CN=ENIS"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="30ba19e4-75fe-400d-b556-47e131f37a46" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="1d79dcd4-d8e1-433b-8281-7504f7210a31" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>PogrebnoDrustvo</DisplayName>
-    <PublisherDisplayName>Semin</PublisherDisplayName>
+    <PublisherDisplayName>ENIS</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 

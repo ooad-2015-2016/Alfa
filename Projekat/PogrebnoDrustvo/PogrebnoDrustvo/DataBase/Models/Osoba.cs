@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PogrebnoDrustvo.DataBase.Models
+namespace PogrebnoDrustvo.Database.Models
 {
     public abstract class Osoba
-    {   
+    {
         public string ime { get; set; }
         public string prezime { get; set; }
         public DateTime datumRodjenja { get; set; }
