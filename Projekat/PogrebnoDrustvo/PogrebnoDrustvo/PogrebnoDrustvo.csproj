@@ -110,6 +110,9 @@
     <Compile Include="Database\Models\Snimatelj.cs" />
     <Compile Include="Database\Models\Vozac.cs" />
     <Compile Include="Database\Models\Zahtjev.cs" />
+    <Compile Include="Korisnik2.xaml.cs">
+      <DependentUpon>Korisnik2.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -141,6 +144,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Korisnik2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
