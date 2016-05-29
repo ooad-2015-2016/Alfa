@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="PogrebnoDrustvo.Cjenovnik"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PogrebnoDrustvo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:data ="using:PogrebnoDrustvo.Database.Models"
+    xmlns:hehe="using:PogrebnoDrustvo"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+        <StackPanel Background="Black" HorizontalAlignment="Left" Height="81" Margin="0,10,0,0" VerticalAlignment="Top" Width="1270">
+            <TextBlock x:Name="textBlock" TextWrapping="Wrap" Text="Cjenovnik" TextAlignment="Center" Margin="10,20,20,0" FontSize="40" Height="83" SelectionHighlightColor="#FFDDE618" Foreground="#FFEAE5E5"/>
+        </StackPanel>
+        <GridView ItemsSource ="{x:Bind oprema}" Margin="0,96,0,10" Grid.RowSpan="2" >
+            <GridView.ItemTemplate>
+                <DataTemplate x:DataType="data:Oprema">
+                    <StackPanel Margin="16,50,5,0">
+                        <Image Source ="{x:Bind slikaOpreme}" Width="400" Height="173"/>
+                        <TextBlock TextAlignment="Center" Text ="{x:Bind naziv}" FontSize="30" />
+                        <TextBlock TextAlignment="Center" Text ="{x:Bind cijena}" FontSize="40" FontWeight="Bold"/>
+                    </StackPanel>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
+    </Grid>
+</Page>

@@ -26,5 +26,10 @@ namespace PogrebnoDrustvo
         {
             this.InitializeComponent();
         }
+
+        private void unesi_b_Click(object sender, RoutedEventArgs e)
+        {
+            Korisnik2 korisnik = new Korisnik2();
+        }
     }
 }

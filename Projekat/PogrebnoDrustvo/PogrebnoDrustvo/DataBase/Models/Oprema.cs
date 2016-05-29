@@ -17,5 +17,10 @@ namespace PogrebnoDrustvo.Database.Models
         public string naziv { get; set; }
         public double visina { get; set; }
         public double sirina { get; set; }
+        public string slikaOpreme { get; set; }
+
+        
     }
+    
+
 }

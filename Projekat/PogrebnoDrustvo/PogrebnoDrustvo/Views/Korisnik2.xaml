@@ -99,7 +99,7 @@
                         <Setter Target="datumRodjenja_t.Width" Value="400"/>
                         <Setter Target="adresa_t.Width" Value="400"/>
                         <Setter Target="brojTelefona_t.Width" Value="400"/>
-                        
+
                     </VisualState.Setters>
                 </VisualState>
 
@@ -166,11 +166,11 @@
                 <TextBox Name="brojTelefona_t" Grid.Column="1" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="32" Margin="11,22,11,22" Width="485" Height="55" />
 
 
-                <Button Name="unesi_b" Grid.Column="1" Grid.Row="6" Content="Unesi" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center"  Width="160" Height="48" Margin="0" />
+                <Button Name="unesi_b" Grid.Column="1" Grid.Row="6" Content="Unesi" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Bottom"  Width="160" Height="48" Margin="199,0,198,10" Click="unesi_b_Click" />
 
 
             </Grid>
         </ScrollViewer>
-            
+
     </Grid>
 </Page>

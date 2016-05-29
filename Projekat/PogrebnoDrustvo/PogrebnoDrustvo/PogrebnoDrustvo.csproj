@@ -110,10 +110,19 @@
     <Compile Include="Database\Models\Snimatelj.cs" />
     <Compile Include="Database\Models\Vozac.cs" />
     <Compile Include="Database\Models\Zahtjev.cs" />
-    <Compile Include="Korisnik2.xaml.cs">
+    <Compile Include="Views\Cjenovnik.xaml.cs">
+      <DependentUpon>Cjenovnik.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FormaIzvjestaj.xaml.cs">
+      <DependentUpon>FormaIzvjestaj.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FormaPreminuli.xaml.cs">
+      <DependentUpon>FormaPreminuli.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Korisnik2.xaml.cs">
       <DependentUpon>Korisnik2.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MainPage.xaml.cs">
+    <Compile Include="Views\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Migrations\20160525220821_InitialMigration.cs" />
@@ -124,12 +133,21 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <AppxManifest Include="Package.appxmanifest">
+    <AppxManifest Include="Views\Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
     <None Include="PogrebnoDrustvo_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\cefini.jpg" />
+    <Content Include="Assets\kupanje.jpg" />
+    <Content Include="Assets\nasloni.jpg" />
+    <Content Include="Assets\posmrtnice.jpg" />
+    <Content Include="Assets\prijevoz.jpg" />
+    <Content Include="Assets\stecak.jpg" />
+    <Content Include="Assets\stojadin.jpg" />
+    <Content Include="Assets\tabut.jpg" />
+    <Content Include="Assets\vozilokombi.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -144,11 +162,23 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="Korisnik2.xaml">
+    <Page Include="Views\Cjenovnik.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MainPage.xaml">
+    <Page Include="Views\FormaIzvjestaj.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\FormaPreminuli.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Korisnik2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
