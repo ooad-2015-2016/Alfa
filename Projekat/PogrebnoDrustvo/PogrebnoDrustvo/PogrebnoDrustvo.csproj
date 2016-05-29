@@ -99,6 +99,7 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Database\Models\DefaultPodaci.cs" />
+    <Compile Include="Database\Models\GlobalneVarijable.cs" />
     <Compile Include="Database\Models\Izvjestaj.cs" />
     <Compile Include="Database\Models\KorisnikSistema.cs" />
     <Compile Include="Database\Models\Mjesto.cs" />
@@ -125,6 +126,9 @@
     <Compile Include="Views\FormaUnosMenađera.xaml.cs">
       <DependentUpon>FormaUnosMenađera.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\FormaUnosPredsjednik.xaml.cs">
+      <DependentUpon>FormaUnosPredsjednik.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\FormaUnosUposlenik.xaml.cs">
       <DependentUpon>FormaUnosUposlenik.xaml</DependentUpon>
     </Compile>
@@ -148,6 +152,7 @@
     <None Include="PogrebnoDrustvo_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\backspace.png" />
     <Content Include="Assets\cefini.jpg" />
     <Content Include="Assets\kupanje.jpg" />
     <Content Include="Assets\nasloni.jpg" />
@@ -188,6 +193,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\FormaUnosMenađera.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\FormaUnosPredsjednik.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

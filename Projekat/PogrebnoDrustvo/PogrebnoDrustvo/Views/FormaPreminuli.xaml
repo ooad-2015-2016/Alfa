@@ -19,7 +19,7 @@
         <RelativePanel Grid.Row="1">
             <Grid>
                 <Grid.Background>
-                    <ImageBrush ImageSource="ms-appx:///Assets/stecak.jpg"/>
+                    <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/stecak.jpg"/>
                 </Grid.Background>
                 <Grid HorizontalAlignment="Left" Height="614" Margin="467,91,0,0" VerticalAlignment="Top" Width="793" FlyoutBase.AttachedFlyout="{StaticResource FlyoutBase1}">
                     <TextBox x:Name="textBoxIme" HorizontalAlignment="Left" Height="50" Margin="174,50,0,0" TextWrapping="Wrap" FontSize="35" Text="" VerticalAlignment="Top" Width="445" Background="White" Foreground="#FFDE1313"/>

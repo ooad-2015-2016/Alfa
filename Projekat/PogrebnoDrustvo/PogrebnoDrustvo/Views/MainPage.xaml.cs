@@ -64,9 +64,20 @@ namespace PogrebnoDrustvo
 
         private void buttonPrijava_Click(object sender, RoutedEventArgs e)
         {
+            String korisnickoIme = textBoxUsername.Text;
+            String lozinka = textBoxPass.Password.ToString();
 
-            FormaPreminuli fp = new FormaPreminuli();
-            this.Content = fp;
+
+            // Username: ooad Password:1111 Default-ni podaci
+            if (korisnickoIme.Equals(GlobalneVarijable.korickoIme)  &&
+                    lozinka.Equals(GlobalneVarijable.lozinka))
+            {
+                FormaUnosPredsjednik fup = new FormaUnosPredsjednik();
+                this.Content = fup;
+            }
+
+            /*FormaPreminuli fp = new FormaPreminuli();
+            this.Content = fp;*/
         }
 
         private void buttonRegistracija_Click(object sender, RoutedEventArgs e)

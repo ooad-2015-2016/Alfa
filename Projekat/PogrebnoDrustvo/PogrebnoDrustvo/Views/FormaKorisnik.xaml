@@ -10,7 +10,7 @@
         <DatePickerFlyout x:Key="FlyoutBase1"/>
     </Page.Resources>
 
-    <Grid>
+    <Grid >
         <Grid.RowDefinitions>
             <RowDefinition Height = "Auto" />
             <RowDefinition Height ="*" />
@@ -19,7 +19,7 @@
         <RelativePanel Grid.Row="1">
             <Grid>
                 <Grid.Background>
-                    <ImageBrush ImageSource="ms-appx:///Assets/stecak.jpg"/>
+                    <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/stecak.jpg"/>
                 </Grid.Background>
                 <Grid HorizontalAlignment="Left" Height="614" Margin="467,91,0,0" VerticalAlignment="Top" Width="793" FlyoutBase.AttachedFlyout="{StaticResource FlyoutBase1}">
                     <TextBox x:Name="textBoxIme" HorizontalAlignment="Left" Height="50" Margin="174,34,0,0" TextWrapping="Wrap" FontSize="28" Text="" VerticalAlignment="Top" Width="445" Background="White" Foreground="#FFDE1313"/>
@@ -29,8 +29,10 @@
                     <DatePicker x:Name ="datumrodjenjapicker" HorizontalAlignment="Left"   Height="42" Margin="174,339,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.494,0.625" Width="445"/>
                     <TextBox x:Name="textBoxAdresa" HorizontalAlignment="Left" Height="50" Margin="174,405,0,0" TextWrapping="Wrap" FontSize="28" Text="" VerticalAlignment="Top" Width="445"/>
                     <TextBox x:Name="textBoxBrojtelefona" HorizontalAlignment="Left" Height="50" Margin="174,480,0,0" TextWrapping="Wrap" FontSize="28" Text="" VerticalAlignment="Top" Width="445"/>
-                    <Button x:Name="buttonUnoskorisnika" Content="Potvrdi" HorizontalAlignment="Left" Height="34" Margin="339,570,0,0" VerticalAlignment="Top" Foreground="#FFF" Background="Black" Width="138" RenderTransformOrigin="0.505,-0.693"/>
+                    <Button x:Name="buttonUnoskorisnika" Content="Potvrdi" HorizontalAlignment="Left" Height="34" Margin="230,555,0,0" VerticalAlignment="Top" Foreground="#FFF" Background="Black" Width="138" RenderTransformOrigin="0.505,-0.693"/>
+                    <Button x:Name="buttonOtkazi" Content="Otkaži" HorizontalAlignment="Left" Height="34" Margin="429,555,0,0" VerticalAlignment="Top" Foreground="#FFF" Background="Black" Width="138" RenderTransformOrigin="0.505,-0.693" Click="buttonOtkazi_Click"/>
                 </Grid>
+
                 <StackPanel Background="Black" HorizontalAlignment="Left" Height="81" Margin="0,0,0,0" VerticalAlignment="Top" Width="1270">
                     <TextBlock x:Name="textBlock" TextWrapping="Wrap" Text="Unesite svoje podatke: " TextAlignment="Center" Margin="10,20,20,0" FontSize="40" Height="83" SelectionHighlightColor="#FFDDE618" Foreground="#FFEAE5E5"/>
                 </StackPanel>
@@ -46,6 +48,7 @@
                         <TextBlock x:Name="textBlockBrojTelefona" TextWrapping="Wrap" FontSize="32" TextAlignment="Center" Text="Broj telefona: " Height="49" Width="392" Margin ="35,0,35,25"/>
                     </StackPanel>
                 </StackPanel>
+                
             </Grid>
         </RelativePanel>
     </Grid>
