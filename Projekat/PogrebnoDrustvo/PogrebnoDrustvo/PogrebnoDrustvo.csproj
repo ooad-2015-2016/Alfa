@@ -116,8 +116,14 @@
     <Compile Include="Views\FormaIzvjestaj.xaml.cs">
       <DependentUpon>FormaIzvjestaj.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\FormaKorisnik.xaml.cs">
+      <DependentUpon>FormaKorisnik.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\FormaPreminuli.xaml.cs">
       <DependentUpon>FormaPreminuli.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FormaUnosUposlenika.xaml.cs">
+      <DependentUpon>FormaUnosUposlenika.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Korisnik2.xaml.cs">
       <DependentUpon>Korisnik2.xaml</DependentUpon>
@@ -170,7 +176,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\FormaKorisnik.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\FormaPreminuli.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\FormaUnosUposlenika.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

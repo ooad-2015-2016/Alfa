@@ -13,6 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using PogrebnoDrustvo.Database.Models;
+using PogrebnoDrustvo.Views;
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
 namespace PogrebnoDrustvo
@@ -66,6 +67,12 @@ namespace PogrebnoDrustvo
 
             FormaPreminuli fp = new FormaPreminuli();
             this.Content = fp;
+        }
+
+        private void buttonRegistracija_Click(object sender, RoutedEventArgs e)
+        {
+            FormaKorisnik fk = new FormaKorisnik();
+            this.Content = fk;    
         }
     }
 }
