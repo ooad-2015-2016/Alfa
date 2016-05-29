@@ -71,8 +71,10 @@ namespace PogrebnoDrustvo
 
         private void buttonRegistracija_Click(object sender, RoutedEventArgs e)
         {
+
             FormaKorisnik fk = new FormaKorisnik();
-            this.Content = fk;    
+            this.Content = fk;
+            
         }
     }
 }

@@ -20,11 +20,14 @@ namespace PogrebnoDrustvo.Views
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class FormaUnosUposlenika : Page
+    public sealed partial class FormaUnosUposlenik : Page
     {
-        public FormaUnosUposlenika()
+        public FormaUnosUposlenik()
         {
             this.InitializeComponent();
+            comboBoxVrstaUposlenika.Items.Add("Vozač");
+            comboBoxVrstaUposlenika.Items.Add("Snimatelj");
+            comboBoxVrstaUposlenika.Items.Add("Radnik");
         }
     }
 }
