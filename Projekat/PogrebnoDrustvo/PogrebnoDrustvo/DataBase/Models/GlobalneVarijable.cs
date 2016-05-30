@@ -10,5 +10,6 @@ namespace PogrebnoDrustvo.Database.Models
     {
         public static String korickoIme = "ooad";
         public static String lozinka = "1111";
+        public static bool imaPredsjednik = false;
     }
 }

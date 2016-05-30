@@ -29,5 +29,17 @@ namespace PogrebnoDrustvo.Views
             comboBoxVrstaUposlenika.Items.Add("Snimatelj");
             comboBoxVrstaUposlenika.Items.Add("Radnik");
         }
+
+        private void buttonUnosOtkazi_Click(object sender, RoutedEventArgs e)
+        {
+            FormaPredsjednik fp = new FormaPredsjednik();
+            this.Content = fp;
+        }
+
+        private void buttonUnosUposlenika_Click(object sender, RoutedEventArgs e)
+        {
+            FormaPredsjednik fp = new FormaPredsjednik();
+            this.Content = fp;
+        }
     }
 }

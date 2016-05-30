@@ -30,7 +30,7 @@
                     <TextBox x:Name="textBoxAdresa" HorizontalAlignment="Left" Height="45" Margin="174,357,0,0" TextWrapping="Wrap" FontSize="24" Text="" VerticalAlignment="Top" Width="445"/>
                     <TextBox x:Name="textBoxBrojtelefona" HorizontalAlignment="Left" Height="45" Margin="174,422,0,0" TextWrapping="Wrap" FontSize="24" Text="" VerticalAlignment="Top" Width="445"/>
                     <TextBox x:Name="textBoxPlata" HorizontalAlignment="Left" Height="45" Margin="174,485,0,0" TextWrapping="Wrap" FontSize="24" Text="" VerticalAlignment="Top" Width="445"/>
-                    <Button x:Name="buttonUnosPredsjednika" Content="Potvrdi" HorizontalAlignment="Left" Height="34" Margin="230,555,0,0" VerticalAlignment="Top" Foreground="#FFF" Background="Black" Width="138" RenderTransformOrigin="0.505,-0.693"/>
+                    <Button x:Name="buttonUnosPredsjednika" Content="Potvrdi" HorizontalAlignment="Left" Height="34" Margin="230,555,0,0" VerticalAlignment="Top" Foreground="#FFF" Background="Black" Width="138" RenderTransformOrigin="0.505,-0.693" Click="buttonUnosPredsjednika_Click"/>
                     <Button x:Name="buttonOtkazi" Content="Otkaži" HorizontalAlignment="Left" Height="34" Margin="429,555,0,0" VerticalAlignment="Top" Foreground="#FFF" Background="Black" Width="138" RenderTransformOrigin="0.505,-0.693" Click="buttonOtkazi_Click" />
                 </Grid>
                 <StackPanel Background="Black" HorizontalAlignment="Left" Height="81" Margin="0,0,0,0" VerticalAlignment="Top" Width="1270">

@@ -67,13 +67,20 @@ namespace PogrebnoDrustvo
             String korisnickoIme = textBoxUsername.Text;
             String lozinka = textBoxPass.Password.ToString();
 
-
             // Username: ooad Password:1111 Default-ni podaci
-            if (korisnickoIme.Equals(GlobalneVarijable.korickoIme)  &&
+            if (korisnickoIme.Equals(GlobalneVarijable.korickoIme) &&
+                    lozinka.Equals(GlobalneVarijable.lozinka) && GlobalneVarijable.imaPredsjednik == false)
+            {
+                FormaUnosPredsjednik fp = new FormaUnosPredsjednik();
+                this.Content = fp;
+                return;
+            }
+
+            else if (korisnickoIme.Equals(GlobalneVarijable.korickoIme)  &&
                     lozinka.Equals(GlobalneVarijable.lozinka))
             {
-                FormaUnosPredsjednik fup = new FormaUnosPredsjednik();
-                this.Content = fup;
+                FormaPredsjednik fp = new FormaPredsjednik();
+                this.Content = fp;
             }
 
             /*FormaPreminuli fp = new FormaPreminuli();

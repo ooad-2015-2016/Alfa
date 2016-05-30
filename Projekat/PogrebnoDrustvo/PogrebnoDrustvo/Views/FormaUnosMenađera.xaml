@@ -31,7 +31,8 @@
                     <TextBox x:Name="textBoxAdresa" HorizontalAlignment="Left" Height="45" Margin="174,357,0,0" TextWrapping="Wrap" FontSize="24" Text="" VerticalAlignment="Top" Width="445"/>
                     <TextBox x:Name="textBoxBrojtelefona" HorizontalAlignment="Left" Height="45" Margin="174,422,0,0" TextWrapping="Wrap" FontSize="24" Text="" VerticalAlignment="Top" Width="445"/>
                     <TextBox x:Name="textBoxPlata" HorizontalAlignment="Left" Height="45" Margin="174,485,0,0" TextWrapping="Wrap" FontSize="24" Text="" VerticalAlignment="Top" Width="445"/>
-                    <Button x:Name="buttonUnosMenađera" Content="Potvrdi" HorizontalAlignment="Left" Height="34" Margin="339,570,0,0" VerticalAlignment="Top" Foreground="#FFF" Background="Black" Width="138" RenderTransformOrigin="0.505,-0.693"/>
+                    <Button x:Name="buttonUnosOtkazi" Content="Nazad" HorizontalAlignment="Left" Margin="220,570,0,10" VerticalAlignment="Stretch" Foreground="#FFF" Background="Black" Width="138" RenderTransformOrigin="0.505,-0.693" Click="buttonUnosOtkazi_Click"/>
+                    <Button x:Name="buttonUnosMenadera" Content="Potvrdi" HorizontalAlignment="Left" Margin="440,570,0,10" VerticalAlignment="Stretch" Foreground="#FFF" Background="Black" Width="138" RenderTransformOrigin="0.505,-0.693" Click="buttonUnosMenadera_Click"/>
                 </Grid>
                 <StackPanel Background="Black" HorizontalAlignment="Left" Height="81" Margin="0,0,0,0" VerticalAlignment="Top" Width="1270">
                     <TextBlock x:Name="textBlock" TextWrapping="Wrap" Text="Unesite podatke o menađeru: " TextAlignment="Center" Margin="10,20,20,0" FontSize="40" Height="83" SelectionHighlightColor="#FFDDE618" Foreground="#FFEAE5E5"/>

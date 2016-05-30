@@ -35,5 +35,18 @@ namespace PogrebnoDrustvo.Views
             MainPage mp = new MainPage();
             this.Content = mp;
         }
+
+        private void buttonUnosPredsjednika_Click(object sender, RoutedEventArgs e)
+        {
+
+            //nakon provjere podataka
+            GlobalneVarijable.imaPredsjednik = true;
+
+            GlobalneVarijable.korickoIme = textBoxUsername.Text;
+            GlobalneVarijable.lozinka = textBoxPassword.Text;
+
+            MainPage mp = new MainPage();
+            this.Content = mp;
+        }
     }
 }

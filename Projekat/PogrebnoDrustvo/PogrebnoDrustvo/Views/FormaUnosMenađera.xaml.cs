@@ -26,5 +26,17 @@ namespace PogrebnoDrustvo.Views
         {
             this.InitializeComponent();
         }
+
+        private void buttonUnosOtkazi_Click(object sender, RoutedEventArgs e)
+        {
+            FormaPredsjednik fp = new FormaPredsjednik();
+            this.Content = fp;
+        }
+
+        private void buttonUnosMenadera_Click(object sender, RoutedEventArgs e)
+        {
+            FormaPredsjednik fp = new FormaPredsjednik();
+            this.Content = fp;
+        }
     }
 }
