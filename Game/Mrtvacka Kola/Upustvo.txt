@@ -1,0 +1,7 @@
+Za start i game over screen kliknuti misem.
+Score se dobija tako sto se sto vise voze mrtvacka kola.
+Ako udarom u "uzvisenje" auto odleti previse uvis nastupa game over.
+
+
+Komande ingame : 
+ - strelice desno i lijevo

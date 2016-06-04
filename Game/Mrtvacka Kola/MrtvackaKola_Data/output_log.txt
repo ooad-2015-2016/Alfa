@@ -1,0 +1,42 @@
+Initialize engine version: 5.3.5f1 (960ebf59018a)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 7700 Series (ID=0x683f)
+    Vendor:   ATI
+    VRAM:     1006 MB
+Default GameObject Tag: Player already registered
+ 
+(Filename:  Line: 88)
+
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\ENIS\Desktop\Game\Mrtvacka Kola\MrtvackaKola_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\ENIS\Desktop\Game\Mrtvacka Kola\MrtvackaKola_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\ENIS\Desktop\Game\Mrtvacka Kola\MrtvackaKola_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\ENIS\Desktop\Game\Mrtvacka Kola\MrtvackaKola_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\ENIS\Desktop\Game\Mrtvacka Kola\MrtvackaKola_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\ENIS\Desktop\Game\Mrtvacka Kola\MrtvackaKola_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\ENIS\Desktop\Game\Mrtvacka Kola\MrtvackaKola_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\ENIS\Desktop\Game\Mrtvacka Kola\MrtvackaKola_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.047 seconds
+Platform assembly: C:\Users\ENIS\Desktop\Game\Mrtvacka Kola\MrtvackaKola_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\ENIS\Desktop\Game\Mrtvacka Kola\MrtvackaKola_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.541788 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1f28 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.428838 ms
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 298.
+Total: 0.404324 ms (FindLiveObjects: 0.031650 ms CreateObjectMapping: 0.020479 ms MarkObjects: 0.177493 ms  DeleteObjects: 0.173459 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.586687 ms
+
+Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 199.
+Total: 1.186597 ms (FindLiveObjects: 0.011791 ms CreateObjectMapping: 0.014273 ms MarkObjects: 0.094021 ms  DeleteObjects: 1.066199 ms)
+
