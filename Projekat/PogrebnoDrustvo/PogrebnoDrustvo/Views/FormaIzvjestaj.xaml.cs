@@ -20,8 +20,15 @@ namespace PogrebnoDrustvo
     {
         public FormaIzvjestaj()
         {
+            
             this.InitializeComponent();
         }
 
+        private void listViewradnici_Loading(FrameworkElement sender, object args)
+        {
+            
+
+
+        }
     }
 }

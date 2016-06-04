@@ -22,10 +22,11 @@
                     <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/stecak.jpg"/>
                 </Grid.Background>
                 <Grid HorizontalAlignment="Left" Height="614" Margin="467,91,0,0" VerticalAlignment="Top" Width="793" FlyoutBase.AttachedFlyout="{StaticResource FlyoutBase1}">
-                    <TextBox x:Name="textBoxIme" HorizontalAlignment="Left" Height="50" Margin="174,34,0,0" TextWrapping="Wrap" FontSize="28" Text="" VerticalAlignment="Top" Width="445" Background="White" Foreground="#FFDE1313"/>
+                    <TextBox x:Name="textBoxIme" HorizontalAlignment="Left" Height="50"  Margin="174,34,0,0" TextWrapping="Wrap" FontSize="28" Text="" VerticalAlignment="Top" Width="445" Background="White" Foreground="Black"/>
                     <TextBox x:Name="textBoxPrezime" HorizontalAlignment="Left" Height="50" Margin="174,110,0,0" TextWrapping="Wrap" FontSize ="28" Text="" VerticalAlignment="Top" Width="445"/>
                     <TextBox x:Name="textBoxUsername" HorizontalAlignment="Left" Height="50" Margin="174,188,0,0" TextWrapping="Wrap" FontSize ="28" Text="" VerticalAlignment="Top" Width="445"/>
-                    <TextBox x:Name="textBoxPassword" HorizontalAlignment="Left" Height="50" Margin="174,260,0,0" TextWrapping="Wrap" FontSize ="28" Text="" VerticalAlignment="Top" Width="445"/>
+                    <!--<PasswordBox x:Name="textBoxPassword" HorizontalAlignment="Left" Height="50" Margin="174,260,0,0" TextWrapping="Wrap" FontSize ="28" Text="" VerticalAlignment="Top" Width="445"/>-->
+                    <PasswordBox x:Name="textBoxPassword"   Margin="174,267,174,300"/>
                     <DatePicker x:Name ="datumrodjenjapicker" HorizontalAlignment="Left"   Height="42" Margin="174,339,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.494,0.625" Width="445"/>
                     <TextBox x:Name="textBoxAdresa" HorizontalAlignment="Left" Height="50" Margin="174,405,0,0" TextWrapping="Wrap" FontSize="28" Text="" VerticalAlignment="Top" Width="445"/>
                     <TextBox x:Name="textBoxBrojtelefona" HorizontalAlignment="Left" Height="50" Margin="174,480,0,0" TextWrapping="Wrap" FontSize="28" Text="" VerticalAlignment="Top" Width="445"/>
@@ -48,7 +49,7 @@
                         <TextBlock x:Name="textBlockBrojTelefona" TextWrapping="Wrap" FontSize="32" TextAlignment="Center" Text="Broj telefona: " Height="49" Width="392" Margin ="35,0,35,25"/>
                     </StackPanel>
                 </StackPanel>
-                
+
             </Grid>
         </RelativePanel>
     </Grid>

@@ -54,12 +54,12 @@ namespace PogrebnoDrustvo.Views
 
         private void buttonPromjenaLozinke_Click(object sender, RoutedEventArgs e)
         {
-            //nakon provjere
+            /*//nakon provjere
             GlobalneVarijable.lozinka = PassPotvrdaPass.Password;
 
             PassNoviPass.Password = "";
             PassStariPass.Password = "";
-            PassPotvrdaPass.Password = "";
+            PassPotvrdaPass.Password = "";*/
 
         }
     }

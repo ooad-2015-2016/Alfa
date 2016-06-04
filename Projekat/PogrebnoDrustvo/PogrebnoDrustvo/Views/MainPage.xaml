@@ -29,5 +29,8 @@
             <Button x:Name="buttonRegistracija"  Width="217" FontSize="20" Content="Registracija" Foreground="#FFF" Background="Black" HorizontalAlignment="Center" Margin="0,20,0,0" Click="buttonRegistracija_Click" />
             <RelativePanel Margin="0,10,0,0" />
         </StackPanel>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Height="91" Margin="1043,332,0,0" VerticalAlignment="Top" Width="98" Click="button_Click_1"/>
+        <Button x:Name="button_Copy" Content="Button" HorizontalAlignment="Left" Height="91" Margin="1064,487,0,0" VerticalAlignment="Top" Width="98" Click="button_Copy_Click"/>
+        <Button x:Name="button_Copy1" Content="Button" HorizontalAlignment="Left" Height="91" Margin="1064,487,0,0" VerticalAlignment="Top" Width="98" Click="button_Copy_Click"/>
     </Grid>
 </Page>
