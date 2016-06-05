@@ -57,3 +57,21 @@ osoba zadužena za izvršenje transporta preminule osobe ili transporta ožaloš
 osoba zadužena za održavanje, uređivanje i osiguravanje groblja i nadgrobnog materijala
 ##### 6. Snimatelj    
 osoba zadužena za kreiranje, produkciju i manipulaciju multimedijalnog sadržaja
+
+##FINAL
+
+- Za komunikaciju sa bazom korišten je Entity Framework (SQLlite baza)
+
+- Kao eksterni uređaj korištena je kamera kao bar- code skener -> link za viewmodel /* EDIT */ 
+
+- Validacija je ispoštovana na svim mjestima gdje se unose podaci, provjerava autentifikacija unesenih podataka preminule osobe kao i zivih osoba. -> pregled VIEW modela .cs file /* EDIT */
+
+- Eksterni servis - nije urađeno
+
+- Mobilna funkcionalnost - pokušaj /* EDIT */
+
+- Web servis - nije urađeno
+
+- Odvojen je exe file za igricu
+
+U folderu 'Igrica- Video' postavljen je video sa osnovnim funkcionalnostima aplikacije.
